@@ -8,7 +8,7 @@
 	"success_url": "/",
 	"env": {
 	
-	},
+	
 		"LOGS": {
 			"description": "Show whatsapp msgs in log",
 			"required": false,
@@ -67,6 +67,8 @@
 			"required": false,
 			"value": "true"
 		},
+		
+	},
 	"addons": [
 		{
 			"plan": "heroku-postgresql:basic"
