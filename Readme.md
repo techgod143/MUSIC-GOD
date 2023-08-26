@@ -27,6 +27,7 @@ MUSIC-GOD SIMPLE Whatsapp Bot.
 
 ## Deploy on any shell including termux
 
+#
 - Fork repo
 - edit the config.js file as per your details
 - install the following dependencies
@@ -40,12 +41,12 @@ MUSIC-GOD SIMPLE Whatsapp Bot.
 - scan the qr
 - Done your bot is alive
 - run ``node .` again to run it again after you stop the bot
-
+#
 
 
 ## Any Doubts ?
 
-[![JOIN WHATSAPP GROUP](https://raw.githubusercontent.com/Neeraj-x0/Neeraj-x0/main/photos/suddidina-join-whatsapp.png)](https://chat.whatsapp.com/ESiNt1pudB1Js6QRZtM0jg)
+[![JOIN WHATSAPP GROUP](https://raw.githubusercontent.com/Neeraj-x0/Neeraj-x0/main/photos/suddidina-join-whatsapp.png)]([https://chat.whatsapp.com/ESiNt1pudB1Js6QRZtM0jg](https://chat.whatsapp.com/CiKDR7Jo4ZV8upo7EGAvc9))
 
 #### Official Image
 
