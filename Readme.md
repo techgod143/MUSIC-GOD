@@ -23,7 +23,9 @@ MUSIC-GOD SIMPLE Whatsapp Bot.
     <br>
 <a href="https://github.com/techgod143/MUSIC-GOD/fork"><img title="MUSIC-GOD" src="https://img.shields.io/badge/FORK MUSIC GOD-h?color=GREEN&style=for-the-badge&logo=stackshare"></a>
 
+3. ## ```Deploy On Heroku```
 
+[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/techgod143/MUSIC-GOD)
 
 ## Deploy on any shell including termux
 
