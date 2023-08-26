@@ -67,7 +67,6 @@
 			"required": false,
 			"value": "true"
 		},
-	},
 	"addons": [
 		{
 			"plan": "heroku-postgresql:basic"
