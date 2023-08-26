@@ -1,18 +1,15 @@
 {
 	"name": "MUSIC-GOD",
-	"description": "",
+	"description": "World fastest Simple WhatsApp Bot By Tech God",
 	"keywords": [
 		"noedjs"
 	],
 	"stack": "container",
 	"success_url": "/",
 	"env": {
-		"ALWAYS_ONLINE": {
-			"description": "show bot number last seen as online",
-			"required": false,
-			"value": "false"
-		},
-		"LOG_MSG": {
+	
+
+		"LOGS": {
 			"description": "Show whatsapp msgs in log",
 			"required": false,
 			"value": "false"
@@ -20,10 +17,10 @@
 		"SUDO": {
 			"description": "admin",
 			"required": false,
-			"value": ""
+			"value": "919012008456"
 		},
-		"PREFIX": {
-			"description": "prefix, check for more",
+		"HANDLERS": {
+			"description": "prefix, cmd for bot",
 			"required": false,
 			"value": "."
 		},
@@ -32,10 +29,10 @@
 			"required": true,
 			"value": ""
 		},
-		"STICKER_PACKNAME": {
+		"PACKNAME": {
 			"description": "sticker pack info",
 			"required": false,
-			"value": "❤️,LyFE"
+			"value": "❤️ Tech God Wa.me/919012008456"
 		},
 		"HEROKU_APP_NAME": {
 			"description": "Heroku app name, same as above entered.",
@@ -50,81 +47,26 @@
 			"required": false,
 			"value": "null"
 		},
-		"LANGUAG": {
+		"LANG": {
 			"description": "Default Language for tts or trt",
 			"required": false,
-			"value": "en"
+			"value": "EN"
 		},
-		"WARN_LIMIT": {
-			"description": "Maximum number of wanings to a person.",
+		"ANTILINK_ACTION": {
+			"description": "Message send when antilink and action is kick/warn.",
 			"required": false,
-			"value": "3"
+			"value": "kick"
 		},
-		"FORCE_LOGOUT": {
-			"description": "In Some scenario have to logout web, Only such case make this true and back to false after logout.",
+		"WORK_TYPE": {
+			"description": "bot run on public/private mode",
 			"required": false,
-			"value": "false"
-		},
-		"DISABLE_BOT": {
-			"description": "Example : jid,jid,... where bot not works in both ways.",
-			"required": false,
-			"value": "null"
-		},
-		"ANTILINK_MSG": {
-			"description": "Message send when antilink and action is kick.",
-			"required": false,
-			"value": "_Antilink Detected &mention kicked_"
-		},
-		"ANTISPAM_MSG": {
-			"description": "Message send when antispam.",
-			"required": false,
-			"value": "_Antispam Detected &mention kicked_"
-		},
-		"ANTIWORDS_MSG": {
-			"description": "Message send when antiword.",
-			"required": false,
-			"value": "_Antiword Detected &mention kicked_"
-		},
-		"ANTIWORDS": {
-			"description": "words that not allowed in chats.",
-			"required": false,
-			"value": "word1,word2,word3"
-		},
-		"SS_TOKEN": {
-			"description": "token from https://app.screenshotapi.net/dashboard",
-			"required": false,
-			"value": ""
-		},
-		"REJECT_CALL": {
-			"description": "auto reject call, if set as true",
-			"required": false,
-			"value": "false"
+			"value": "public"
 		},
 		"AUTO_STATUS_VIEW": {
 			"description": "view others status",
 			"required": false,
-			"value": "false"
-		},
-		"SEND_READ": {
-			"description": "send blue tick",
-			"required": false,
-			"value": "false"
-		},
-		"AJOIN": {
-			"description": "Accept Group join request(Group privacy)",
-			"required": false,
 			"value": "true"
 		},
-		"PERSONAL_MESSAGE": {
-			"description": "Send a Welcome message on personal chat",
-			"required": false,
-			"value": "null"
-		},
-		"DISABLE_START_MESSAGE": {
-			"description": "Disable start Message",
-			"required": false,
-			"value": "false"
-		}
 	},
 	"addons": [
 		{
