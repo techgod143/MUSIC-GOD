@@ -1,83 +1,62 @@
 {
-	"name": "MUSIC-GOD",
-	"description": "World fastest Simple WhatsApp Bot By Tech God",
-	"keywords": [
-		"noedjs"
-	],
-	"stack": "container",
-	"success_url": "/",
-	"env": {
-	
-	
-		"LOGS": {
-			"description": "Show whatsapp msgs in log",
-			"required": false,
-			"value": "false"
-		},
-		"SUDO": {
-			"description": "admin",
-			"required": false,
-			"value": "919012008456"
-		},
-		"HANDLERS": {
-			"description": "prefix, cmd for bot",
-			"required": false,
-			"value": "."
-		},
-		"SESSION_ID": {
-			"description": "session id",
-			"required": true,
-			"value": ""
-		},
-		"PACKNAME": {
-			"description": "sticker pack info",
-			"required": false,
-			"value": "❤️ Tech God Wa.me/919012008456"
-		},
-		"HEROKU_APP_NAME": {
-			"description": "Heroku app name, same as above entered.",
-			"required": true
-		},
-		"HEROKU_API_KEY": {
-			"description": "Heroku account api key, https://dashboard.heroku.com/account",
-			"required": true
-		},
-		"RMBG_KEY": {
-			"description": "API key from remove.bg, required for plugin rmbg",
-			"required": false,
-			"value": "null"
-		},
-		"LANG": {
-			"description": "Default Language for tts or trt",
-			"required": false,
-			"value": "EN"
-		},
-		"ANTILINK_ACTION": {
-			"description": "Message send when antilink and action is kick/warn.",
-			"required": false,
-			"value": "kick"
-		},
-		"WORK_TYPE": {
-			"description": "bot run on public/private mode",
-			"required": false,
-			"value": "public"
-		},
-		"AUTO_STATUS_VIEW": {
-			"description": "view others status",
-			"required": false,
-			"value": "true"
-		},
-		
-	},
-	"addons": [
-		{
-			"plan": "heroku-postgresql:basic"
-		}
-	],
-	"formation": {
-		"worker": {
-			"quantity": 1,
-			"size": "basic"
-		}
-	}
+  "name": "MUSIC-GOD",
+  "description": "A simple bot by tech god",
+  "logo": "https://i.hizliresim.com/6Bbj7i.jpg",
+  "keywords": ["whatsapp"],
+  "repository": "https://github.com/techgod143/MUSIC-GOD",
+  "website": "https://github.com/techgod143/MUSIC-GOD",
+  "success_url": "https://github.com/techgod143/MUSIC-GOD",
+  "stack": "container",
+  "env": {
+    "ANTI_LINK": {
+      "description": "true/false",
+      "required": false
+    },
+    "ANTILINK_ACTION": {
+      "description": "kick",
+      "required": false
+    },
+    "RMBG_KEY": {
+      "description": "Remove bg api key ",
+      "required": false
+    },
+    "SESSION_ID": {
+      "description": "Your Session ID",
+      "required": true
+    },
+    "HANDLERS": {
+      "description": "prefix for commands, enter false for no prefix",
+      "required": true,
+      "value": ","
+    },
+    "LOGS": {
+      "description": "need to show message logs ?",
+      "required": false
+    },
+    "PACKNAME": {
+      "description": "Sticker Packname",
+      "required": false
+    },
+
+    "GOODBYE_MSG": {
+      "description": "goodbye Message",
+      "required": false
+    },
+    "AUTHOR": {
+      "description": "Sticker Pack AUTHOR",
+      "required": false
+    },
+    "SUDO": {
+      "description": "sudo numbers with country code seperate with , for multiple numbers",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Heroku app name, same as above entered",
+      "required": true
+    },
+    "HEROKU_API_KEY": {
+      "description": "Heroku account api key, https://dashboard.heroku.com/account",
+      "required": true
+    }
+  }
 }
